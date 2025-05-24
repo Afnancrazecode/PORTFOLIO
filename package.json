@@ -2,22 +2,21 @@
   "homepage": "https://Afnancrazecode.github.io/PORTFOLIO",
   "name": "simplefolio",
   "version": "1.0.1",
-  "private": "true",
+  "private": false,
   "description": "A clean, beautiful and responsive portfolio template for Developers!",
   "source": "src/index.html",
   "scripts": {
-  "start": "parcel src/index.html",
-  "build": "parcel build src/index.html",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d dist"
-},
-
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cobiwave/simplefolio"
+    "url": "git+https://github.com/Afnancrazecode/PORTFOLIO.git"
   },
   "keywords": [],
-  "author": "Jacobo Martinez",
+  "author": "AFNAN SHAIKH",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/cobiwave/simplefolio/issues"
