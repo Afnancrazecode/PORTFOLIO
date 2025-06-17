@@ -12580,4 +12580,86 @@ section {
   }
 }
 
+body.dark-mode {
+  color: #f5f5f5 !important;
+  background: #181824 !important;
+}
+
+body.dark-mode * {
+  color: #f5f5f5 !important;
+  border-color: #444 !important;
+}
+
+body.dark-mode #about, body.dark-mode #projects, body.dark-mode #contact, body.dark-mode section {
+  color: #f5f5f5 !important;
+  background: #22223b !important;
+}
+
+body.dark-mode .project-wrapper__text, body.dark-mode .project-wrapper__image, body.dark-mode .about-wrapper__info, body.dark-mode .about-wrapper__image {
+  color: #f5f5f5 !important;
+  background: none !important;
+}
+
+body.dark-mode .footer {
+  color: #f5f5f5 !important;
+  background: #181824 !important;
+}
+
+body.dark-mode .footer__text a {
+  color: #00cdac !important;
+}
+
+body.dark-mode .progress {
+  background: #333 !important;
+}
+
+body.dark-mode .progress-bar {
+  background: linear-gradient(90deg, #00cdac, #02aab0) !important;
+}
+
+body.dark-mode .floating-shape circle {
+  fill: #00cdac !important;
+  opacity: .08 !important;
+}
+
+.floating-shape {
+  z-index: 0;
+  pointer-events: none;
+  animation: 6s ease-in-out infinite alternate float;
+  position: absolute;
+}
+
+@keyframes float {
+  to {
+    transform: translateY(30px)scale(1.1);
+  }
+}
+
+.skills-bars {
+  margin-top: 2rem;
+}
+
+.skill-bar {
+  margin-bottom: 1.5rem;
+}
+
+.skill-bar span {
+  margin-bottom: .5rem;
+  font-weight: bold;
+  display: block;
+}
+
+.skill-bar .progress {
+  height: 1rem;
+  background: #eee;
+  border-radius: 2rem;
+}
+
+.skill-bar .progress .progress-bar {
+  height: 100%;
+  background: linear-gradient(90deg, #02aab0, #00cdac);
+  border-radius: 2rem;
+  transition: width 1s;
+}
+
 /*# sourceMappingURL=index.4a508c1d.css.map */
